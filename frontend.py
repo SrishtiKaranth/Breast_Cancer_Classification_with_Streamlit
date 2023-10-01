@@ -6,8 +6,8 @@ import json
 import streamlit_lottie
 from streamlit_lottie import st_lottie
 
-loaded_model = pickle.load(open("C:\\Users\\srish\\Desktop\\ML Projects\\Breast Cancer Detection\\trained_model.sav", 'rb'))
-loaded_scaler = pickle.load(open("C:\\Users\\srish\\Desktop\\ML Projects\\Breast Cancer Detection\\scaler.pkl", 'rb'))
+loaded_model = pickle.load(open("trained_model.sav", 'rb'))
+loaded_scaler = pickle.load(open("scaler.pkl", 'rb'))
 
 #creating a function 
 
