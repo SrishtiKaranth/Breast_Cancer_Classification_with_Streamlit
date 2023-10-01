@@ -3,6 +3,7 @@ import pickle
 import streamlit as st
 import requests
 import json
+import streamlit_lottie
 from streamlit_lottie import st_lottie
 
 loaded_model = pickle.load(open("C:\\Users\\srish\\Desktop\\ML Projects\\Breast Cancer Detection\\trained_model.sav", 'rb'))
@@ -117,7 +118,7 @@ def main():
                     def load_lottiefile(filepath:str):
                         with open(filepath,"r") as f:
                             return json.load(f)
-                    lottie_coding=load_lottiefile("C:\\Users\\srish\\Desktop\\ML Projects\\Breast Cancer Detection\\animation_ln4fa54w.json")
+                    lottie_coding=load_lottiefile("https://raw.githubusercontent.com/SrishtiKaranth/Breast_Cancer_Classification_with_Streamlit/main/animation_ln4fa54w.json")
                     st_lottie(
                     lottie_coding,
                     speed=1,
@@ -149,7 +150,7 @@ def main():
                     def load_lottiefile(filepath:str):
                         with open(filepath,"r") as f:
                             return json.load(f)
-                    lottie_coding=load_lottiefile("C:\\Users\\srish\\Desktop\\ML Projects\\Breast Cancer Detection\\animation_ln4q96ku.json")
+                    lottie_coding=load_lottiefile("https://raw.githubusercontent.com/SrishtiKaranth/Breast_Cancer_Classification_with_Streamlit/main/animation_ln4q96ku.json")
                     st_lottie(
                     lottie_coding,
                     speed=1,
@@ -180,7 +181,7 @@ def main():
                     def load_lottiefile(filepath:str):
                         with open(filepath,"r") as f:
                             return json.load(f)
-                    lottie_coding=load_lottiefile("C:\\Users\\srish\\Desktop\\ML Projects\\Breast Cancer Detection\\animation_ln4pb6o3.json")
+                    lottie_coding=load_lottiefile("https://raw.githubusercontent.com/SrishtiKaranth/Breast_Cancer_Classification_with_Streamlit/main/animation_ln4pb6o3.json")
                     st_lottie(
                     lottie_coding,
                     speed=1,
@@ -214,7 +215,7 @@ def main():
                     def load_lottiefile(filepath:str):
                         with open(filepath,"r") as f:
                             return json.load(f)
-                    lottie_coding=load_lottiefile("C:\\Users\\srish\\Desktop\\ML Projects\\Breast Cancer Detection\\animation_ln4pj1t1.json")
+                    lottie_coding=load_lottiefile("https://raw.githubusercontent.com/SrishtiKaranth/Breast_Cancer_Classification_with_Streamlit/main/animation_ln4pj1t1.json")
                     st_lottie(
                     lottie_coding,
                     speed=2,
@@ -244,7 +245,7 @@ def main():
                     def load_lottiefile(filepath:str):
                         with open(filepath,"r") as f:
                             return json.load(f)
-                    lottie_coding=load_lottiefile("C:\\Users\\srish\\Desktop\\ML Projects\\Breast Cancer Detection\\animation_ln4ps1od.json")
+                    lottie_coding=load_lottiefile("https://raw.githubusercontent.com/SrishtiKaranth/Breast_Cancer_Classification_with_Streamlit/main/animation_ln4ps1od.json")
                     st_lottie(
                     lottie_coding,
                     speed=1,
@@ -274,7 +275,7 @@ def main():
                     def load_lottiefile(filepath:str):
                         with open(filepath,"r") as f:
                             return json.load(f)
-                    lottie_coding=load_lottiefile("C:\\Users\\srish\\Desktop\\ML Projects\\Breast Cancer Detection\\animation_ln4qc4mk.json")
+                    lottie_coding=load_lottiefile("https://raw.githubusercontent.com/SrishtiKaranth/Breast_Cancer_Classification_with_Streamlit/main/animation_ln4qc4mk.json")
                     st_lottie(
                     lottie_coding,
                     speed=1,
